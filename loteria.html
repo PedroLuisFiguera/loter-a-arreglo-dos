@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="loteria.css">
+    <Script src="loteria.js"></Script>
+   
+    <title>loteria</title>
+</head>
+<body>
+    
+    <div id="lampara">
+        <h1>Lotería de Animalitos</h1>
+        <div id="animalContainer"></div>
+       <button onclick="generarAnimal()">Generar Animalito</button>
+   
+       </div>
+<H1>APUESTA HOY</H1>
+<P> ESCOJE TU ANIMAL DE PREFERENCIA Y GANA MILES DE PREMIOS</P>
+
+<div id="lampara">
+        <div class="fila">
+            <div id="botones">
+            <button onclick="Elefante()">Elefante🐘</button>
+            <button onclick="Leon()">León🦁</button>
+            <button onclick="Jirafa()">Jirafa🦒</button>
+            <button onclick="Tigre()">Tigre🐆</button>
+            <button onclick="Cebra()">Cebra🦓</button>
+             
+        <div class="fila">
+            
+            <button onclick="Mono()">mono🐒</button>
+            <button onclick="Oso()">Oso🐻</button>
+            <button onclick="Hipopótamo()">Hipopótamo🦏</button>
+            <button onclick="Canguro()">Canguro🦘</button>
+            <button onclick="Perro()">Perro🐕</button>
+            
+        </div>
+
+        <div class="fila">
+            <button onclick="gato()">gato🐈</button>
+            <button onclick="caballo()">caballo🐎</button>
+            <button onclick="Raton()">Raton🐀</button>
+            <button onclick="Murcielago()">Murcielago🦇</button>
+            <button onclick="Gallo()">Gallo🐓</button>
+        </div>
+
+        <div class="fila">
+            
+            <button onclick="Serpiente()">Serpiente🐍</button>
+            <button onclick="Tiburon()">Tiburon🦈</button>
+            <button onclick="Araña()">Araña🕷️"</button>
+            <button onclick="Escorpuion()">Escorpuion🦂</button>
+            <button onclick="Ballena()">Ballena🐳</button>
+
+        </div>
+        
+    </div>
+        </div>
+
+
+<div class="fila">
+        
+
+            <form class="formulario">
+
+                <label for="cantidad">PAGAR POR ANIMAL JUGADO</label>
+                <input type="number" id="cantidad" step="0.01" required>
+            
+                <label for="moneda"> </label>
+                <select id="moneda">
+                  <option value="usd">Dólar (USD)</option>
+                  <option value="eur">Euro (EUR)</option>
+                </select>
+            
+                <button type="button" onclick="realizarConversion()">TOTAL A GANAR 🤑</button>
+              </form>
+            
+            
+            </div>
+
+        
+            <div id="resultados-container">
+                <div id="seleccion"></div>
+                <div id="resultado"></div>
+              </div>
+           
+             
+
+</body>
+</html>
